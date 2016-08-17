@@ -1,0 +1,2170 @@
+[
+    {
+        "Project": {
+            "Author": "",
+            "Project File Version": "0.4"
+        }
+    },
+    {
+        "Settings": [
+            {
+                "User Data": {
+                    "Colors": [
+                        {
+                            "RGB": "0xFFFFFF",
+                            "User Name": "White"
+                        },
+                        {
+                            "RGB": "0x000000",
+                            "User Name": "Black"
+                        },
+                        {
+                            "RGB": "0x808080",
+                            "User Name": "Gray"
+                        },
+                        {
+                            "RGB": "0x0000FF",
+                            "User Name": "Blue"
+                        },
+                        {
+                            "RGB": "0xFF0000",
+                            "User Name": "Red"
+                        },
+                        {
+                            "RGB": "0xFF00FF",
+                            "User Name": "Magenta"
+                        },
+                        {
+                            "RGB": "0x008000",
+                            "User Name": "Green"
+                        },
+                        {
+                            "RGB": "0xFFFF00",
+                            "User Name": "Yellow"
+                        },
+                        {
+                            "RGB": "0x00FFFF",
+                            "User Name": "Cyan"
+                        },
+                        {
+                            "RGB": "0x00FF00",
+                            "User Name": "Lime"
+                        },
+                        {
+                            "RGB": "0x800000",
+                            "User Name": "Maroon"
+                        },
+                        {
+                            "RGB": "0x000080",
+                            "User Name": "Navy"
+                        },
+                        {
+                            "RGB": "0x808000",
+                            "User Name": "Olive"
+                        },
+                        {
+                            "RGB": "0x800080",
+                            "User Name": "Purple"
+                        },
+                        {
+                            "RGB": "0xC0C0C0",
+                            "User Name": "Silver"
+                        },
+                        {
+                            "RGB": "0x008080",
+                            "User Name": "Teal"
+                        },
+                        {
+                            "RGB": "0xFFA500",
+                            "User Name": "Orange"
+                        },
+                        {
+                            "RGB": "0xFFC0CB",
+                            "User Name": "Pink"
+                        },
+                        {
+                            "RGB": "0x87CEEB",
+                            "User Name": "SkyBlue"
+                        }
+                    ],
+                    "Fonts": [
+                        {
+                            "Anti-Aliased": false,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans10",
+                            "Path Converted": ":/fonts/DejaVuSans10.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 10,
+                            "User Name": "DejaVu Sans 10"
+                        },
+                        {
+                            "Anti-Aliased": false,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans12",
+                            "Path Converted": ":/fonts/DejaVuSans12.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 12,
+                            "User Name": "DejaVu Sans 12"
+                        },
+                        {
+                            "Anti-Aliased": false,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans16",
+                            "Path Converted": ":/fonts/DejaVuSans16.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 16,
+                            "User Name": "DejaVu Sans 16"
+                        },
+                        {
+                            "Anti-Aliased": false,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans20",
+                            "Path Converted": ":/fonts/DejaVuSans20.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 20,
+                            "User Name": "DejaVu Sans 20"
+                        },
+                        {
+                            "Anti-Aliased": false,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans24",
+                            "Path Converted": ":/fonts/DejaVuSans24.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 24,
+                            "User Name": "DejaVu Sans 24"
+                        },
+                        {
+                            "Anti-Aliased": false,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans32",
+                            "Path Converted": ":/fonts/DejaVuSans32.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 32,
+                            "User Name": "DejaVu Sans 32"
+                        },
+                        {
+                            "Anti-Aliased": true,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans12_aa",
+                            "Path Converted": ":/fonts/DejaVuSans12_aa.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 12,
+                            "User Name": "DejaVu Sans 12 Anti-Aliased"
+                        },
+                        {
+                            "Anti-Aliased": true,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans16_aa",
+                            "Path Converted": ":/fonts/DejaVuSans16_aa.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 16,
+                            "User Name": "DejaVu Sans 16 Anti-Aliased"
+                        },
+                        {
+                            "Anti-Aliased": true,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans20_aa",
+                            "Path Converted": ":/fonts/DejaVuSans20_aa.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 20,
+                            "User Name": "DejaVu Sans 20 Anti-Aliased"
+                        },
+                        {
+                            "Anti-Aliased": true,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans24_aa",
+                            "Path Converted": ":/fonts/DejaVuSans24_aa.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 24,
+                            "User Name": "DejaVu Sans 24 Anti-Aliased"
+                        },
+                        {
+                            "Anti-Aliased": true,
+                            "Family": "DejaVu Sans",
+                            "McuFont Name": "DejaVuSans32_aa",
+                            "Path Converted": ":/fonts/DejaVuSans32_aa.c",
+                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Size": 32,
+                            "User Name": "DejaVu Sans 32 Anti-Aliased"
+                        },
+                        {
+                            "Anti-Aliased": false,
+                            "Family": "Invalid",
+                            "McuFont Name": "roboto_regular12",
+                            "Path Converted": "/Users/oleg/Projects/my/fonts/roboto-regular12.c",
+                            "Path TTF": "/Users/oleg/Projects/my/fonts/roboto-regular.ttf",
+                            "Size": 12,
+                            "User Name": "roboto 12"
+                        }
+                    ],
+                    "Styles": [
+                        {
+                            "Colors": {
+                                "Background": "0xFFFFFF",
+                                "Disabled": {
+                                    "Edge": "0x808080",
+                                    "Fill": "0xE0E0E0",
+                                    "Progress": "0xC0E0C0",
+                                    "Text": "0xC0C0C0"
+                                },
+                                "Enabled": {
+                                    "Edge": "0x404040",
+                                    "Fill": "0xE0E0E0",
+                                    "Progress": "0x00E000",
+                                    "Text": "0x000000"
+                                },
+                                "Focus": "0x2A8FCD",
+                                "Pressed": {
+                                    "Edge": "0x404040",
+                                    "Fill": "0x808080",
+                                    "Progress": "0x00E000",
+                                    "Text": "0x404040"
+                                }
+                            },
+                            "User": "White"
+                        },
+                        {
+                            "Colors": {
+                                "Background": "0x000000",
+                                "Disabled": {
+                                    "Edge": "0x404040",
+                                    "Fill": "0x404040",
+                                    "Progress": "0x004000",
+                                    "Text": "0x808080"
+                                },
+                                "Enabled": {
+                                    "Edge": "0xC0C0C0",
+                                    "Fill": "0x606060",
+                                    "Progress": "0x008000",
+                                    "Text": "0xC0C0C0"
+                                },
+                                "Focus": "0x2A8FCD",
+                                "Pressed": {
+                                    "Edge": "0xC0C0C0",
+                                    "Fill": "0xE0E0E0",
+                                    "Progress": "0x008000",
+                                    "Text": "0xFFFFFF"
+                                }
+                            },
+                            "User": "Black"
+                        },
+                        {
+                            "Colors": {
+                                "Background": "0xe6e6e6",
+                                "Disabled": {
+                                    "Edge": "0x808080",
+                                    "Fill": "0xE0E0E0",
+                                    "Progress": "0xC0E0C0",
+                                    "Text": "0xC0C0C0"
+                                },
+                                "Enabled": {
+                                    "Edge": "0x404040",
+                                    "Fill": "0xE0E0E0",
+                                    "Progress": "0x00E000",
+                                    "Text": "0x000000"
+                                },
+                                "Focus": "0x2A8FCD",
+                                "Pressed": {
+                                    "Edge": "0x404040",
+                                    "Fill": "0x808080",
+                                    "Progress": "0x00E000",
+                                    "Text": "0x404040"
+                                }
+                            },
+                            "User": "White_copy"
+                        },
+                        {
+                            "Colors": {
+                                "Background": "0x000000",
+                                "Disabled": {
+                                    "Edge": "0x000000",
+                                    "Fill": "0x000000",
+                                    "Progress": "0x000000",
+                                    "Text": "0x000000"
+                                },
+                                "Enabled": {
+                                    "Edge": "0xffffff",
+                                    "Fill": "0x000000",
+                                    "Progress": "0x000000",
+                                    "Text": "0x000000"
+                                },
+                                "Focus": "0x000000",
+                                "Pressed": {
+                                    "Edge": "0x000000",
+                                    "Fill": "0x000000",
+                                    "Progress": "0x000000",
+                                    "Text": "0x000000"
+                                }
+                            },
+                            "User": "Unnamed"
+                        }
+                    ],
+                    "Widget Groups": [
+                        {
+                            "Handle": "DD"
+                        },
+                        {
+                            "Handle": "GROUP_DEFAULT"
+                        }
+                    ]
+                }
+            },
+            {
+                "Generators": {
+                    "Application File": "gui.c",
+                    "Calibration File": "calibration.h",
+                    "Configuration File": "gfxconf.h",
+                    "Console Sample Text": false,
+                    "Filesystem File": "romfs_files.h",
+                    "Generate Event Loop": false,
+                    "Page Loop Delay": 5000,
+                    "Script Task Build": {
+                        "Arguments": "$(OUTPUT_DIR)",
+                        "Enabled": true,
+                        "Interpreter": "/bin/bash",
+                        "Script": "$(PROJECT_DIR)/fix.sh"
+                    },
+                    "Script Task Preview": {
+                        "Arguments": "",
+                        "Enabled": false,
+                        "Interpreter": "",
+                        "Script": ""
+                    },
+                    "StartUp Logo": false
+                }
+            },
+            {
+                "Editor": {
+                    "Grid Size": 1,
+                    "Snap Size": 1
+                }
+            },
+            {
+                "GDISP": {
+                    "Clipping": true,
+                    "Display Control": true,
+                    "Display Height": 220,
+                    "Display Width": 176,
+                    "Initial Backlight": 100,
+                    "Initial Contrast": 100,
+                    "Orientation": "Native",
+                    "StartUp Color": "White",
+                    "Text Anti-Aliased": false,
+                    "Text Kerning": false,
+                    "Text Unicode": true,
+                    "Validation": false
+                }
+            },
+            {
+                "GINPUT": {
+                    "Calibration Data": {
+                        "ax": 1,
+                        "ay": 1,
+                        "bx": 1,
+                        "by": 1,
+                        "cx": 0,
+                        "cy": 0
+                    },
+                    "Calibration Option": 0,
+                    "Keyboard Flags": 0,
+                    "Use Keyboard": true
+                }
+            },
+            {
+                "GWIN": {
+                    "Button Lazy Release": false,
+                    "Console Escape": false,
+                    "Console Float": false,
+                    "Console History": false,
+                    "Default Background Color": "White",
+                    "Default Font": "DejaVu Sans 10",
+                    "Default Foreground Color": "Black",
+                    "Default Style": "White",
+                    "Flat Styling": false,
+                    "Imagebox Animation": false,
+                    "List Images": false,
+                    "WM Redraw Immediate": false,
+                    "WM Redraw SingleTop": false
+                }
+            },
+            {
+                "GFILE": {
+                    "FatFS": false,
+                    "NativeFS": false,
+                    "ROMFS": true,
+                    "ROMFS Additional Files": [
+                        ""
+                    ]
+                }
+            },
+            {
+                "GTIMER": {
+                    "Priority": "Normal",
+                    "Stack Size": 2048
+                }
+            },
+            {
+                "GEVENT": {
+                    "Assert No Resource": false,
+                    "Event Loop Timeout": 0,
+                    "Maximum Size": 32,
+                    "Maximum Source Listeners": 32
+                }
+            }
+        ]
+    },
+    {
+        "Backgrounds": [
+            {
+                "Background": [
+                    {
+                        "Background Name": "main"
+                    }
+                ]
+            },
+            {
+                "Background": [
+                    {
+                        "Background Name": "Unnamed"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Display Pages": [
+            {
+                "Page": [
+                    {
+                        "Background": 0,
+                        "Default": true,
+                        "Page Name": "MainFrame"
+                    },
+                    {
+                        "Container": {
+                            "Border": false,
+                            "Show Text": false,
+                            "Widget": {
+                                "CustomDraw": "gwinContainerDraw_Std",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghContainerStatus",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 176,
+                                        "X": 0,
+                                        "Y": 0,
+                                        "Z": -1,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "ImageBox": {
+                            "Widget": {
+                                "CustomDraw": "N/A",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/batt_full_chg.bmp",
+                                    "Need Manual Init": false
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "Imagebox1",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghImagebox1_1",
+                                    "Item": {
+                                        "Height": 16,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 16,
+                                        "X": 141,
+                                        "Y": 1,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "ghContainerStatus",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "gp_home",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabelSsid",
+                                    "Item": {
+                                        "Height": 14,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 50,
+                                        "X": 2,
+                                        "Y": 2,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "ghContainerStatus",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "100%",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabelBatt",
+                                    "Item": {
+                                        "Height": 14,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 32,
+                                        "X": 111,
+                                        "Y": 2,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "ghContainerStatus",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "12:00",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 10",
+                                    "GHandle": "ghLabelTime",
+                                    "Item": {
+                                        "Height": 14,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 30,
+                                        "X": 73,
+                                        "Y": 2,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "ghContainerStatus",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "ImageBox": {
+                            "Widget": {
+                                "CustomDraw": "N/A",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/wifi_full.bmp",
+                                    "Need Manual Init": false
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "Imagebox1",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghImagebox1",
+                                    "Item": {
+                                        "Height": 16,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 16,
+                                        "X": 157,
+                                        "Y": 0,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "ghContainerStatus",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Container": {
+                            "Border": false,
+                            "Show Text": false,
+                            "Widget": {
+                                "CustomDraw": "gwinContainerDraw_Std",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "Container1",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghContainerNavkeys",
+                                    "Item": {
+                                        "Height": 22,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 176,
+                                        "X": 0,
+                                        "Y": 198,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": true,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Unnamed",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabel6",
+                                    "Item": {
+                                        "Height": 22,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 0,
+                                        "X": 88,
+                                        "Y": 0,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "ghContainerNavkeys",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/back.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonClose",
+                                    "Item": {
+                                        "Height": 20,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 86,
+                                        "X": 2,
+                                        "Y": 1,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "ghContainerNavkeys",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/menu.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "White_copy",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonMenu",
+                                    "Item": {
+                                        "Height": 20,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 86,
+                                        "X": 90,
+                                        "Y": 1,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "ghContainerNavkeys",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "Page": [
+                    {
+                        "Background": 0,
+                        "Default": false,
+                        "Page Name": "MainMenu"
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/music.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Player",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonPlayer",
+                                    "Item": {
+                                        "Height": 66,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 56,
+                                        "X": 2,
+                                        "Y": 17,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/mic.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Speech",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonRecognize",
+                                    "Item": {
+                                        "Height": 66,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 56,
+                                        "X": 60,
+                                        "Y": 17,
+                                        "Z": 1,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/weather.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Weather",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonWeather",
+                                    "Item": {
+                                        "Height": 66,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 56,
+                                        "X": 116,
+                                        "Y": 17,
+                                        "Z": 2,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/remote.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Remote",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonRemote",
+                                    "Item": {
+                                        "Height": 66,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 56,
+                                        "X": 2,
+                                        "Y": 100,
+                                        "Z": 3,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/gear.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Settings",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonSettings",
+                                    "Item": {
+                                        "Height": 66,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 56,
+                                        "X": 60,
+                                        "Y": 100,
+                                        "Z": 4,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "Page": [
+                    {
+                        "Background": 0,
+                        "Default": true,
+                        "Page Name": "WifiSettings"
+                    },
+                    {
+                        "Keyboard": {
+                            "Widget": {
+                                "CustomDraw": "gwinKeyboardDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Keyboard1",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghKeyboard1",
+                                    "Item": {
+                                        "Height": 80,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 178,
+                                        "X": -2,
+                                        "Y": 100,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "TextEdit": {
+                            "Max Characters": 50,
+                            "Widget": {
+                                "CustomDraw": "gwinTexteditDefaultDraw",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghInputPassword",
+                                    "Item": {
+                                        "Height": 24,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 168,
+                                        "X": 5,
+                                        "Y": 65,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "TextEdit": {
+                            "Max Characters": 50,
+                            "Widget": {
+                                "CustomDraw": "gwinTexteditDefaultDraw",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "default",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghInputSSID",
+                                    "Item": {
+                                        "Height": 24,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 168,
+                                        "X": 5,
+                                        "Y": 20,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Wifi password",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabel5_1",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 120,
+                                        "X": 5,
+                                        "Y": 46,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Wifi SSID",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabel5",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 120,
+                                        "X": 5,
+                                        "Y": 1,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "Page": [
+                    {
+                        "Background": 0,
+                        "Default": false,
+                        "Page Name": "BrowseFile"
+                    },
+                    {
+                        "List": {
+                            "Entries": [
+                                {
+                                    "Name": "File1",
+                                    "Selected": false
+                                },
+                                {
+                                    "Name": "File2",
+                                    "Selected": false
+                                },
+                                {
+                                    "Name": "Item3",
+                                    "Selected": false
+                                },
+                                {
+                                    "Name": "Item4",
+                                    "Selected": false
+                                },
+                                {
+                                    "Name": "Item5",
+                                    "Selected": false
+                                },
+                                {
+                                    "Name": "Item6",
+                                    "Selected": false
+                                }
+                            ],
+                            "Multi-Select": false,
+                            "Scrollbar Policy": 2,
+                            "Widget": {
+                                "CustomDraw": "gwinListDefaultDraw",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "List1",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghListFiles",
+                                    "Item": {
+                                        "Height": 160,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 178,
+                                        "X": -2,
+                                        "Y": 20,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Browse files",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabel5",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 120,
+                                        "X": 1,
+                                        "Y": 1,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "Page": [
+                    {
+                        "Background": 0,
+                        "Default": false,
+                        "Page Name": "AudioPlayer"
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Browse files",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabel5",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 120,
+                                        "X": 1,
+                                        "Y": 1,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "Page": [
+                    {
+                        "Background": 0,
+                        "Default": false,
+                        "Page Name": "RemoteControl"
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedCenter",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "RC",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghLabel5",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 70,
+                                        "X": 20,
+                                        "Y": 14,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Black",
+                                "Text": "POWER",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonRemotePower",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 50,
+                                        "X": 112,
+                                        "Y": 6,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Black",
+                                "Text": "+",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghButtonRemoteVolumePlus",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 40,
+                                        "X": 44,
+                                        "Y": 90,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Black",
+                                "Text": "-",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghButtonRemoteVolumeMinus",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 40,
+                                        "X": 44,
+                                        "Y": 132,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Black",
+                                "Text": "-",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghButtonRemoteProgMinus",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 40,
+                                        "X": 96,
+                                        "Y": 132,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Black",
+                                "Text": "+",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghButtonRemoteProgPlus",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 40,
+                                        "X": 96,
+                                        "Y": 90,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Black",
+                                "Text": "<",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghButtonRemotePrev",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 40,
+                                        "X": 18,
+                                        "Y": 48,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Black",
+                                "Text": "II",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghButtonRemotePause",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 40,
+                                        "X": 70,
+                                        "Y": 48,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Black",
+                                "Text": ">",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghButtonRemoteNext",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 40,
+                                        "X": 122,
+                                        "Y": 48,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedCenter",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "P ",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghLabel5_2",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 15,
+                                        "X": 144,
+                                        "Y": 118,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "ImageBox": {
+                            "Widget": {
+                                "CustomDraw": "N/A",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/volume.bmp",
+                                    "Need Manual Init": false
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Imagebox3",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghImagebox3",
+                                    "Item": {
+                                        "Height": 16,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 16,
+                                        "X": 20,
+                                        "Y": 118,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "Page": [
+                    {
+                        "Background": 0,
+                        "Default": false,
+                        "Page Name": "Weather"
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedCenter",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Weather",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghLabel5",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 120,
+                                        "X": 26,
+                                        "Y": 10,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "ImageBox": {
+                            "Widget": {
+                                "CustomDraw": "N/A",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/weath_temp.bmp",
+                                    "Need Manual Init": false
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghImagebox2",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 32,
+                                        "X": 24,
+                                        "Y": 36,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "ImageBox": {
+                            "Widget": {
+                                "CustomDraw": "N/A",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/weath_humidity.bmp",
+                                    "Need Manual Init": false
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghImagebox2_1",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 32,
+                                        "X": 24,
+                                        "Y": 80,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "ImageBox": {
+                            "Widget": {
+                                "CustomDraw": "N/A",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/weath_pressure.bmp",
+                                    "Need Manual Init": false
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghImagebox2_2",
+                                    "Item": {
+                                        "Height": 32,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 32,
+                                        "X": 24,
+                                        "Y": 124,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "10 С",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghLabelTemperature",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 100,
+                                        "X": 60,
+                                        "Y": 44,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "60 %",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghLabelHumidity",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 100,
+                                        "X": 60,
+                                        "Y": 88,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "750 kPA",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "DejaVu Sans 16",
+                                    "GHandle": "ghLabelPressure",
+                                    "Item": {
+                                        "Height": 18,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 100,
+                                        "X": 60,
+                                        "Y": 132,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "Page": [
+                    {
+                        "Background": 0,
+                        "Default": false,
+                        "Page Name": "Recognizer"
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Normal",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Start Speech",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButtonStartSpeech",
+                                    "Item": {
+                                        "Height": 20,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 100,
+                                        "X": 10,
+                                        "Y": 150,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Progressbar": {
+                            "Maximum": 100,
+                            "Minimum": 0,
+                            "Orientation": 0,
+                            "Step": 10,
+                            "Value": 25,
+                            "Widget": {
+                                "CustomDraw": "gwinProgressbarDraw_Std",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "Recodrding...",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghProgressRecording",
+                                    "Item": {
+                                        "Height": 20,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 156,
+                                        "X": 10,
+                                        "Y": 20,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "CheckBox": {
+                            "Checked": false,
+                            "Widget": {
+                                "CustomDraw": "gwinCheckboxDraw_CheckOnLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "VAD",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghEnableVAD",
+                                    "Item": {
+                                        "Height": 20,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 50,
+                                        "X": 116,
+                                        "Y": 150,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabelRecognizeResult",
+                                    "Item": {
+                                        "Height": 90,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 156,
+                                        "X": 10,
+                                        "Y": 50,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
