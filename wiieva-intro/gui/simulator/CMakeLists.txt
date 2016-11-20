@@ -30,6 +30,8 @@ set(INCLUDES
 
 add_definitions (-DGDISP_SCREEN_WIDTH=176 -DGDISP_SCREEN_HEIGHT=220 -DGFX_OS_PRE_INIT_FUNCTION=sdl_driver_init -DGFX_USE_OS_OSX=TRUE)
 
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fmax-type-align=4" )
+
 find_package (sdl2)
 string(STRIP ${SDL2_LIBRARIES} SDL2_LIBRARIES)
 

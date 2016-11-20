@@ -38,7 +38,7 @@ void guiWindow_Show (GUIWindow *win) {
 }
 
 void guiWindow_EventLoop(uint32_t timeout) {
-    GEvent* pe = geventEventWait(&glistener, 5000);
+    GEvent* pe = geventEventWait(&glistener, timeout);
 
     if (!pe)
         return;
@@ -70,7 +70,7 @@ void guiWindow_EventLoop(uint32_t timeout) {
 
 void guiInit () {
     gfxInit();
-    gdispSetBacklight(100);
+    gdispSetBacklight(5);
     gdispSetContrast(100);
 
     geventListenerInit(&glistener);

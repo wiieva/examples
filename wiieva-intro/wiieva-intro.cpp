@@ -1,7 +1,7 @@
 
 #include <Arduino.h>
 #include <SPI.h>
-#include <SD.h>
+#include <SdFat.h>
 #include <ESP8266WiFiMulti.h>
 #include <ESP8266HTTPClient.h>
 #include <WiievaWiring.h>
@@ -19,6 +19,7 @@ using namespace wiieva;
 
 ESP8266WiFiMulti WiFiMulti;
 HTTPClient http;
+SdFat SD;
 
 #define UPLOAD_AUDIO_URL "http://www.google.com/speech-api/v2/recognize?output=json&lang=en&key=" GOOGLE_API_KEY
 #define PLAY_AUDIO_URL "http://wiieva.com/files/ichwill_128.mp3"
@@ -44,13 +45,14 @@ void guiExec_RCCommand (int vendor, int cmd) {
         case RCCmdNext:       code = 0x0 ; break;
         case RCCmdPrev:       code = 0x0 ; break;
         case RCCmdPause:      code = 0x0 ; break;
-    }; 
-    
+    };
+
     Serial.printf("send ir =%04X\n",code);
-    for (int i = 0; i < 5;++i)
+    for (int i = 0; i < 5;++i) {
         IRSend.sendSony(code,12);
         yield ();
-        delay (100);
+        delay (45);
+    }
 }
 
 void ParseGoogleJson (char *buf,const char *str,size_t buf_len) {
@@ -77,25 +79,25 @@ void ParseGoogleJson (char *buf,const char *str,size_t buf_len) {
 int guiExec_AudioRecognize (int seconds,int vad,guiCb_RecognizeProgress callback) {
 
     WiievaRecorder recorder (2000*seconds);
-        
+
     Serial.printf ("Start recording\r\n");
     recorder.start (AIO_AUDIO_IN_SPEEX);
 
     int res, cb_res;
     int millis_start = millis();
     int vad_pause_cnt = 0;
-    
+
     do {
         res = recorder.run ();
         cb_res = callback (RSRecording,recorder.recordedSize() * 100 / (seconds*2000),0,0);
-    
+
         // check VAD if need
         if (vad && millis () - millis_start > 1000 && !recorder.checkVad())
             vad_pause_cnt++;
         else
             vad_pause_cnt = 0;
     } while (res && cb_res && vad_pause_cnt < 30);
-    
+
     recorder.stop ();
     cb_res = callback (RSSending,20,0,0);
 
@@ -113,13 +115,13 @@ int guiExec_AudioRecognize (int seconds,int vad,guiCb_RecognizeProgress callback
             char *subres = strstr (tmpBuf,";");
             if (subres)
                 *subres++ = 0;
-            
+
             cb_res = callback (RSDone,100,tmpBuf,subres);
         } else
         {
             cb_res = callback (RSError,100,payload.c_str(),0);
         }
-        
+
     } else {
         Serial.printf("[HTTP] POST... failed, error: %s\r\n", http.errorToString(httpCode).c_str());
         cb_res = callback (RSError,100,http.errorToString(httpCode).c_str(),0);
@@ -132,17 +134,23 @@ int guiExec_AudioRecognize (int seconds,int vad,guiCb_RecognizeProgress callback
 int guiExec_getFileList (const char *dirName,guiCb_FileFound callback) {
 
     File dir;
+    char name[128];
     dir = SD.open(dirName);
     if (!dir)
         return 0;
-        
+
     for (;;) {
 
         File entry =  dir.openNextFile();
         if (! entry)
             break;
-        callback (entry.isDirectory(),entry.name());
-        entry.close();
+        name[0] = 0;
+        entry.getName(name,sizeof (name));
+        if (name[0] != '.')
+        {
+            callback (entry.isDirectory(),name);
+            entry.close();
+        }
     }
     dir.close();
 }
@@ -181,9 +189,12 @@ void setup ()
 
     yield ();
     WiFiMulti.addAP("gp_home", "12345ABCDE");
+    WiFiMulti.addAP("Restream", "HelloRestream");
 
    if (!SD.begin(WIIEVA_SD_CS))
        Serial.println("Error init microsd card!");
+    wdt_disable();
+
 }
 
 void startPlayUrl ()
@@ -213,8 +224,7 @@ void loop ()
 {
     static uint16_t prev = 0;
 
-    guiWindow_EventLoop(10);
-    wdt_disable();
+    guiWindow_EventLoop(2);
     WiFiMulti.run();
 
     uint16_t cur = sendCommand (AIO_CMD_TEST,SEND_CMD_FL_ANSWER);

@@ -11,16 +11,15 @@ echo  '
 // Additional defines
 
 #ifdef __ets__
-#define GFILE_ROMFS_DATA_ATTR __attribute__((section(".irom.text")))
+#define GFX_ROM_DATA_ATTR __attribute__((section(".irom.text")))
+#define GFX_NEED_ROM_ALIGN32_READ TRUE
 #define _setjmp setjmp
-#else
-#define GFILE_ROMFS_DATA_ATTR
 #endif
 
-#define GFILE_ROMFS_ALIGN32_READ TRUE
 #define GDISP_NEED_TEXT_WORDWRAP TRUE
 #endif
 ' >> $1/gfxconf.h
 
-sed -i '' "s/static const/static const GFILE_ROMFS_DATA_ATTR/g" $1/rsc/*.h
-
+sed -i '' "s/static const char/static const GFX_ROM_DATA_ATTR char/g" $1/rsc/{*.h,*.c}
+sed -i '' "s/static const uint/static const GFX_ROM_DATA_ATTR uint/g" $1/rsc/{*.h,*.c}
+sed -i '' "s/static const ROMFS_DIRENTRY/static const GFX_ROM_DATA_ATTR ROMFS_DIRENTRY/g" $1/rsc/{*.h,*.c}

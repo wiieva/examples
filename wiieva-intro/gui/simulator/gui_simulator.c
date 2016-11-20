@@ -8,6 +8,13 @@
 #include "gui.h"
 #include "gui_helpers.h"
 #include "gui_router.h"
+#include "gui_exec.h"
+
+void guiExec_RCCommand (int vendor, int cmd) {}
+int guiExec_AudioRecognize (int seconds,int vad,guiCb_RecognizeProgress callback) {return 0;}
+int guiExec_getFileList (const char *dir,guiCb_FileFound callback) {return 0;}
+int guiExec_playFile (const char *fileName,guiCb_PlayProgress callback){ return 0;}
+
 
 
 int main(int argc, char* argv[])

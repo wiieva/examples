@@ -55,7 +55,7 @@
     #define GWIN_NEED_IMAGE TRUE
         #define GWIN_NEED_IMAGE_ANIMATION FALSE
     #define GWIN_NEED_LIST TRUE
-        #define GWIN_NEED_LIST_IMAGES FALSE
+        #define GWIN_NEED_LIST_IMAGES TRUE
     #define GWIN_FLAT_STYLING FALSE
 
     #define GWIN_NEED_PROGRESSBAR TRUE
@@ -112,7 +112,7 @@
 
 #define GFILE_NEED_NATIVEFS FALSE
 #define GFILE_NEED_ROMFS TRUE
-#define GFILE_MAX_GFILES 14
+#define GFILE_MAX_GFILES 17
 
 
 
@@ -121,13 +121,11 @@
 // Additional defines
 
 #ifdef __ets__
-#define GFILE_ROMFS_DATA_ATTR __attribute__((section(".irom.text")))
+#define GFX_ROM_DATA_ATTR __attribute__((section(".irom.text")))
+#define GFX_NEED_ROM_ALIGN32_READ TRUE
 #define _setjmp setjmp
-#else
-#define GFILE_ROMFS_DATA_ATTR
 #endif
 
-#define GFILE_ROMFS_ALIGN32_READ TRUE
 #define GDISP_NEED_TEXT_WORDWRAP TRUE
 #endif
 

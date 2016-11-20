@@ -92,8 +92,8 @@
                             "Anti-Aliased": false,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans10",
-                            "Path Converted": ":/fonts/DejaVuSans10.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans10.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 10,
                             "User Name": "DejaVu Sans 10"
                         },
@@ -101,8 +101,8 @@
                             "Anti-Aliased": false,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans12",
-                            "Path Converted": ":/fonts/DejaVuSans12.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans12.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 12,
                             "User Name": "DejaVu Sans 12"
                         },
@@ -110,8 +110,8 @@
                             "Anti-Aliased": false,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans16",
-                            "Path Converted": ":/fonts/DejaVuSans16.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans16.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 16,
                             "User Name": "DejaVu Sans 16"
                         },
@@ -119,8 +119,8 @@
                             "Anti-Aliased": false,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans20",
-                            "Path Converted": ":/fonts/DejaVuSans20.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans20.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 20,
                             "User Name": "DejaVu Sans 20"
                         },
@@ -128,8 +128,8 @@
                             "Anti-Aliased": false,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans24",
-                            "Path Converted": ":/fonts/DejaVuSans24.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans24.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 24,
                             "User Name": "DejaVu Sans 24"
                         },
@@ -137,8 +137,8 @@
                             "Anti-Aliased": false,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans32",
-                            "Path Converted": ":/fonts/DejaVuSans32.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans32.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 32,
                             "User Name": "DejaVu Sans 32"
                         },
@@ -146,8 +146,8 @@
                             "Anti-Aliased": true,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans12_aa",
-                            "Path Converted": ":/fonts/DejaVuSans12_aa.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans12_aa.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 12,
                             "User Name": "DejaVu Sans 12 Anti-Aliased"
                         },
@@ -155,8 +155,8 @@
                             "Anti-Aliased": true,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans16_aa",
-                            "Path Converted": ":/fonts/DejaVuSans16_aa.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans16_aa.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 16,
                             "User Name": "DejaVu Sans 16 Anti-Aliased"
                         },
@@ -164,8 +164,8 @@
                             "Anti-Aliased": true,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans20_aa",
-                            "Path Converted": ":/fonts/DejaVuSans20_aa.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans20_aa.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 20,
                             "User Name": "DejaVu Sans 20 Anti-Aliased"
                         },
@@ -173,8 +173,8 @@
                             "Anti-Aliased": true,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans24_aa",
-                            "Path Converted": ":/fonts/DejaVuSans24_aa.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans24_aa.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 24,
                             "User Name": "DejaVu Sans 24 Anti-Aliased"
                         },
@@ -182,8 +182,8 @@
                             "Anti-Aliased": true,
                             "Family": "DejaVu Sans",
                             "McuFont Name": "DejaVuSans32_aa",
-                            "Path Converted": ":/fonts/DejaVuSans32_aa.c",
-                            "Path TTF": ":/fonts/DejaVuSans.ttf",
+                            "Path Converted": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans32_aa.c",
+                            "Path TTF": "/Users/oleg/Projects/my/uGFX/src/gdisp/fonts/DejaVuSans.ttf",
                             "Size": 32,
                             "User Name": "DejaVu Sans 32 Anti-Aliased"
                         },
@@ -382,7 +382,7 @@
                     "Default Style": "White",
                     "Flat Styling": false,
                     "Imagebox Animation": false,
-                    "List Images": false,
+                    "List Images": true,
                     "WM Redraw Immediate": false,
                     "WM Redraw SingleTop": false
                 }
@@ -484,7 +484,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/batt_full_chg.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/batt_full_chg.bmp",
                                     "Need Manual Init": false
                                 },
                                 "Image Height Count": 1,
@@ -633,7 +633,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/wifi_full.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/wifi_full.bmp",
                                     "Need Manual Init": false
                                 },
                                 "Image Height Count": 1,
@@ -743,7 +743,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/back.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/back.bmp",
                                     "Need Manual Init": true
                                 },
                                 "Image Height Count": 1,
@@ -778,7 +778,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/menu.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/menu.bmp",
                                     "Need Manual Init": true
                                 },
                                 "Image Height Count": 1,
@@ -822,7 +822,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/music.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/music.bmp",
                                     "Need Manual Init": true
                                 },
                                 "Image Height Count": 1,
@@ -857,7 +857,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/mic.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/mic.bmp",
                                     "Need Manual Init": true
                                 },
                                 "Image Height Count": 1,
@@ -892,7 +892,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/weather.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/weather.bmp",
                                     "Need Manual Init": true
                                 },
                                 "Image Height Count": 1,
@@ -927,7 +927,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/remote.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/remote.bmp",
                                     "Need Manual Init": true
                                 },
                                 "Image Height Count": 1,
@@ -962,7 +962,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/gear.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/gear.bmp",
                                     "Need Manual Init": true
                                 },
                                 "Image Height Count": 1,
@@ -1330,6 +1330,111 @@
                                         "Width": 120,
                                         "X": 1,
                                         "Y": 1,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/file_reg.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButton1",
+                                    "Item": {
+                                        "Height": 16,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 16,
+                                        "X": 50,
+                                        "Y": 136,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/file_mp3.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButton1_1",
+                                    "Item": {
+                                        "Height": 16,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 16,
+                                        "X": 67,
+                                        "Y": 136,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "PushButton": {
+                            "Widget": {
+                                "CustomDraw": "gwinButtonDraw_Image",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/folder.bmp",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghButton1_2",
+                                    "Item": {
+                                        "Height": 16,
+                                        "Lock Position": false,
+                                        "Lock Size": true,
+                                        "Snap": true,
+                                        "Width": 16,
+                                        "X": 87,
+                                        "Y": 137,
                                         "Z": 0,
                                         "isBackground": false
                                     },
@@ -1711,7 +1816,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/volume.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/volume.bmp",
                                     "Need Manual Init": false
                                 },
                                 "Image Height Count": 1,
@@ -1793,7 +1898,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/weath_temp.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/weath_temp.bmp",
                                     "Need Manual Init": false
                                 },
                                 "Image Height Count": 1,
@@ -1828,7 +1933,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/weath_humidity.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/weath_humidity.bmp",
                                     "Need Manual Init": false
                                 },
                                 "Image Height Count": 1,
@@ -1863,7 +1968,7 @@
                                 "CustomParam": "0",
                                 "Enabled": true,
                                 "Image": {
-                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/sketches/gui/icons/weath_pressure.bmp",
+                                    "Desktop Path": "/Users/oleg/Projects/my/wiieva/examples/wiieva-intro/gui/icons/weath_pressure.bmp",
                                     "Need Manual Init": false
                                 },
                                 "Image Height Count": 1,
@@ -2144,16 +2249,54 @@
                                 "Window": {
                                     "BgColor": "White",
                                     "Color": "Black",
-                                    "Font": "0",
+                                    "Font": "DejaVu Sans 16",
                                     "GHandle": "ghLabelRecognizeResult",
                                     "Item": {
-                                        "Height": 90,
+                                        "Height": 40,
                                         "Lock Position": false,
                                         "Lock Size": false,
                                         "Snap": true,
                                         "Width": 156,
                                         "X": 10,
                                         "Y": 50,
+                                        "Z": 0,
+                                        "isBackground": false
+                                    },
+                                    "Parent": "0",
+                                    "Visible": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Label": {
+                            "Auto Size Height": false,
+                            "Auto Size Width": false,
+                            "Border": false,
+                            "Widget": {
+                                "CustomDraw": "gwinLabelDrawJustifiedLeft",
+                                "CustomParam": "0",
+                                "Enabled": true,
+                                "Image": {
+                                    "Desktop Path": "Invalid",
+                                    "Need Manual Init": true
+                                },
+                                "Image Height Count": 1,
+                                "Style": "Default",
+                                "Text": "",
+                                "Window": {
+                                    "BgColor": "White",
+                                    "Color": "Black",
+                                    "Font": "0",
+                                    "GHandle": "ghLabelRecognizeResult2",
+                                    "Item": {
+                                        "Height": 60,
+                                        "Lock Position": false,
+                                        "Lock Size": false,
+                                        "Snap": true,
+                                        "Width": 156,
+                                        "X": 10,
+                                        "Y": 90,
                                         "Z": 0,
                                         "isBackground": false
                                     },

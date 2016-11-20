@@ -45,6 +45,9 @@ extern GHandle ghListFiles;
 extern GHandle ghLabel5;
 extern GHandle ghContainerAudioPlayer;
 extern GHandle ghLabel5;
+extern GHandle ghButton1;
+extern GHandle ghButton1_1;
+extern GHandle ghButton1_2;
 extern GHandle ghContainerRemoteControl;
 extern GHandle ghLabel5;
 extern GHandle ghButtonRemotePower;
@@ -69,8 +72,8 @@ extern GHandle ghContainerRecognizer;
 extern GHandle ghButtonStartSpeech;
 extern GHandle ghProgressRecording;
 extern GHandle ghEnableVAD;
-extern GHandle ghLabelRecognizeResult2;
 extern GHandle ghLabelRecognizeResult;
+extern GHandle ghLabelRecognizeResult2;
 
 // Function Prototypes
 void guiCreate(void);

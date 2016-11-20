@@ -40,6 +40,9 @@ GHandle ghListFiles;
 GHandle ghLabel5;
 GHandle ghContainerAudioPlayer;
 GHandle ghLabel5;
+GHandle ghButton1;
+GHandle ghButton1_1;
+GHandle ghButton1_2;
 GHandle ghContainerRemoteControl;
 GHandle ghLabel5;
 GHandle ghButtonRemotePower;
@@ -64,8 +67,8 @@ GHandle ghContainerRecognizer;
 GHandle ghButtonStartSpeech;
 GHandle ghProgressRecording;
 GHandle ghEnableVAD;
-GHandle ghLabelRecognizeResult2;
 GHandle ghLabelRecognizeResult;
+GHandle ghLabelRecognizeResult2;
 
 // Fonts
 font_t dejavu_sans_10;
@@ -79,6 +82,9 @@ gdispImage mic;
 gdispImage weather;
 gdispImage remote;
 gdispImage gear;
+gdispImage file_reg;
+gdispImage file_mp3;
+gdispImage folder;
 
 static void createPageMainFrame(void)
 {
@@ -496,6 +502,45 @@ static void createPageAudioPlayer(void)
 	wi.customStyle = 0;
 	ghLabel5 = gwinLabelCreate(0, &wi);
 	gwinLabelSetBorder(ghLabel5, FALSE);
+
+	// create button widget: ghButton1
+	wi.g.show = TRUE;
+	wi.g.x = 50;
+	wi.g.y = 136;
+	wi.g.width = 16;
+	wi.g.height = 16;
+	wi.g.parent = ghContainerAudioPlayer;
+	wi.text = "";
+	extern void gwinButtonDraw_ImageText(GWidgetObject *gw, void *param); wi.customDraw = gwinButtonDraw_ImageText;
+	wi.customParam = &file_reg;
+	wi.customStyle = 0;
+	ghButton1 = gwinButtonCreate(0, &wi);
+
+	// create button widget: ghButton1_1
+	wi.g.show = TRUE;
+	wi.g.x = 67;
+	wi.g.y = 136;
+	wi.g.width = 16;
+	wi.g.height = 16;
+	wi.g.parent = ghContainerAudioPlayer;
+	wi.text = "";
+	extern void gwinButtonDraw_ImageText(GWidgetObject *gw, void *param); wi.customDraw = gwinButtonDraw_ImageText;
+	wi.customParam = &file_mp3;
+	wi.customStyle = 0;
+	ghButton1_1 = gwinButtonCreate(0, &wi);
+
+	// create button widget: ghButton1_2
+	wi.g.show = TRUE;
+	wi.g.x = 87;
+	wi.g.y = 137;
+	wi.g.width = 16;
+	wi.g.height = 16;
+	wi.g.parent = ghContainerAudioPlayer;
+	wi.text = "";
+	extern void gwinButtonDraw_ImageText(GWidgetObject *gw, void *param); wi.customDraw = gwinButtonDraw_ImageText;
+	wi.customParam = &folder;
+	wi.customStyle = 0;
+	ghButton1_2 = gwinButtonCreate(0, &wi);
 }
 
 static void createPageRemoteControl(void)
@@ -851,21 +896,7 @@ static void createPageRecognizer(void)
 	wi.customParam = 0;
 	wi.customStyle = 0;
 	ghEnableVAD = gwinCheckboxCreate(0, &wi);
-	gwinCheckboxCheck(ghEnableVAD, TRUE);
-
-	// Create label widget: ghLabelRecognizeResult2
-	wi.g.show = TRUE;
-	wi.g.x = 10;
-	wi.g.y = 90;
-	wi.g.width = 156;
-	wi.g.height = 56;
-	wi.g.parent = ghContainerRecognizer;
-	wi.text = "";
-	wi.customDraw = gwinLabelDrawJustifiedLeft;
-	wi.customParam = 0;
-	wi.customStyle = 0;
-	ghLabelRecognizeResult2 = gwinLabelCreate(0, &wi);
-	gwinLabelSetBorder(ghLabelRecognizeResult2, FALSE);
+	gwinCheckboxCheck(ghEnableVAD, FALSE);
 
 	// Create label widget: ghLabelRecognizeResult
 	wi.g.show = TRUE;
@@ -882,6 +913,20 @@ static void createPageRecognizer(void)
 	gwinLabelSetBorder(ghLabelRecognizeResult, FALSE);
 	gwinSetFont(ghLabelRecognizeResult, dejavu_sans_16);
 	gwinRedraw(ghLabelRecognizeResult);
+
+	// Create label widget: ghLabelRecognizeResult2
+	wi.g.show = TRUE;
+	wi.g.x = 10;
+	wi.g.y = 90;
+	wi.g.width = 156;
+	wi.g.height = 60;
+	wi.g.parent = ghContainerRecognizer;
+	wi.text = "";
+	wi.customDraw = gwinLabelDrawJustifiedLeft;
+	wi.customParam = 0;
+	wi.customStyle = 0;
+	ghLabelRecognizeResult2 = gwinLabelCreate(0, &wi);
+	gwinLabelSetBorder(ghLabelRecognizeResult2, FALSE);
 }
 
 void guiShowPage(unsigned pageIndex)
@@ -951,6 +996,9 @@ void guiCreate(void)
 	gdispImageOpenFile(&weather, "rsc/weather.bmp");
 	gdispImageOpenFile(&remote, "rsc/remote.bmp");
 	gdispImageOpenFile(&gear, "rsc/gear.bmp");
+	gdispImageOpenFile(&file_reg, "rsc/file_reg.bmp");
+	gdispImageOpenFile(&file_mp3, "rsc/file_mp3.bmp");
+	gdispImageOpenFile(&folder, "rsc/folder.bmp");
 
 	// GWIN settings
 	gwinWidgetClearInit(&wi);

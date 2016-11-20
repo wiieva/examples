@@ -25,8 +25,9 @@ set (ARDUINO_LIBS
     "${ESP_LIBS}/ESP8266WiFi/src"
 	"${ESP_LIBS}/ESP8266HTTPClient/src"
 	"${ESP_LIBS}/SPI"
-    "${ESP_LIBS}/SD/src"
-    "${ESP_LIBS}/SD/src/utility")
+    "${ESP_LIBS}/SdFat/src" "${ESP_LIBS}/SdFat/src/AltSpiDrivers" "${ESP_LIBS}/SdFat/src/FatLib" "${ESP_LIBS}/SdFat/src/SdSpiCard"
+
+)
 
 set (CMAKE_SYSTEM_NAME Linux)
 set (CMAKE_SYSTEM_PROCESSOR arm)
@@ -57,7 +58,7 @@ endfunction(PREPEND)
 file (GLOB sketch_SRC "*.cpp" "*.c" "*.h" "gui/*.c" "gui/output/gui.c")
 
 
-file (GLOB_RECURSE core_SRC 
+file (GLOB_RECURSE core_SRC
         ${ESP_ROOT}/cores/esp8266/*
         ${ESP_ROOT}/variants/${VARIANT}/*
 )
@@ -76,6 +77,7 @@ set (INCLUDES
         ${ESP_LIBS}/ugfx/src
         gui
         gui/output
+        .
 )
 
 add_definitions(-DGFX_USE_OS_ARDUINO=TRUE -DGFX_OS_INIT_NO_WARNING)
